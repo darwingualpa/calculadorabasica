@@ -67,7 +67,7 @@ namespace calculadorabasica
                     break;
 
             }
-            lb1.Text = "=" + memoria1 + operador + memoria2;
+            lb1.Text = $" {memoria1}  {operador}  {memoria2} = ";
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -137,7 +137,7 @@ namespace calculadorabasica
                 memoria1 = double.Parse(txtpantalla.Text);
             txtpantalla.Clear();
             btnpunto.Enabled = true;
-            lb1.Text = operador + memoria1  ;
+            lb1.Text =$"{memoria1}  {operador}"   ;
         }
 
 
@@ -149,7 +149,7 @@ namespace calculadorabasica
                 memoria1 = double.Parse(txtpantalla.Text);
             txtpantalla.Clear();
             btnpunto.Enabled = true;
-            lb1.Text = operador+ memoria1 ;
+            lb1.Text = $"{memoria1}  {operador}";
         }
 
         private void btnmultiplicacion_Click(object sender, EventArgs e)
@@ -159,7 +159,8 @@ namespace calculadorabasica
             if (!string.IsNullOrEmpty(txtpantalla.Text))
                 memoria1 = double.Parse(txtpantalla.Text);
             txtpantalla.Clear();
-            lb1.Text = operador + memoria1 ;
+            btnpunto.Enabled = true;
+            lb1.Text = $"{memoria1}  {operador}";
 
         }
 
@@ -170,7 +171,8 @@ namespace calculadorabasica
             if (!string.IsNullOrEmpty(txtpantalla.Text))
                 memoria1 = double.Parse(txtpantalla.Text);
             txtpantalla.Clear();
-            lb1.Text = operador + memoria1;
+            btnpunto.Enabled = true;
+            lb1.Text = $"{memoria1}  {operador}";
 
         }
         private void btnporcentaje_Click(object sender, EventArgs e)
@@ -179,7 +181,8 @@ namespace calculadorabasica
             if (!string.IsNullOrEmpty(txtpantalla.Text))
                 memoria1 = double.Parse(txtpantalla.Text);
             txtpantalla.Clear();
-            lb1.Text = operador + memoria1;
+            btnpunto.Enabled = true;
+            lb1.Text = $"{memoria1}  {operador}";
         }
 
         private void bntborrarderecha_Click(object sender, EventArgs e)

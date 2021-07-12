@@ -336,10 +336,10 @@ namespace calculadorabasica
             this.lb1.AutoSize = true;
             this.lb1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lb1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lb1.Location = new System.Drawing.Point(187, 78);
             this.lb1.Name = "lb1";
-            this.lb1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lb1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lb1.Size = new System.Drawing.Size(0, 16);
             this.lb1.TabIndex = 28;
             this.lb1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -373,7 +373,6 @@ namespace calculadorabasica
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(270, 388);
             this.Controls.Add(this.button1);

@@ -90,44 +90,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-computer-keyboard-backspace-delete-key-computer-ic-clear-symbol-icon-clear-png-icon-16-x16-p-5cef6d867e9b87.8731344915591950145186.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backspace-icon-vector-delete-sign-260nw-1968330814.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\12.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\13.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-mahindra-roxor-mahindra-mahindra-off-road-vehicl-5ae538fbe19be1.7859134415249717719241.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\d.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\d1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Pittogramma_Backspace.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8c43645fe8d0ac164a6925448be32858.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
